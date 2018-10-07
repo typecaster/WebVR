@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+	<title>  A-frameVR </title>
+</head>
+<body>
+<a-scene>
+   <!-- texts -->
+
+   <a-text value="Hello!" color="#BBB"
+        position="-0.3 1 -3" scale="1.5 1.5 1.5"></a-text>
+
+   <a-text value="can you find 5 open source softwares?" color="#BBB"
+        position="-2.3 0.7 -3" scale="1.5 1.5 1.5"></a-text> 
+
+    <a-text value="Take a look! " color="#BBB"
+        position="-0.9 0.4 -3" scale="1.5 1.5 1.5"></a-text>
+            
+   <!--  boxes    -->     
+
+   <a-box  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrknpnATRCmb_aPGM1T7lM9bu-puX-gVIRIJPuHRpFZK9KCs76"    position="-5 4 -40" rotation="30 30 45" scale="2 2 2"> 
+   	<a-animation attribute="rotation" to="120 0 360" direction="alternate" dur="2000"
+      repeat="indefinite"></a-animation>
+   </a-box>
+
+
+    <a-box  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh7SUJrEQpdynNCrw4KZrUtSjvYx7ud8XcrKD_r7H839xqjGOzmA"    position="-5 8 13" rotation="30 45 10" scale="2 2 2"> 
+   	<a-animation attribute="rotation" to="120 120 360" direction="alternate" dur="2000"
+      repeat="indefinite"></a-animation>
+   </a-box>
+
+
+    <a-box  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG3fHJ9TMvjI6bBvTkhmE5bKiCqchrprrngN3AphxZaeNl2jeL8g"    position="-30 3 -16" rotation="30 45 10" scale="2 2 2"> 
+   	<a-animation attribute="rotation" to="100 360 60" direction="alternate" dur="2000"
+      repeat="indefinite"></a-animation>
+   </a-box>
+
+
+    <a-box  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJOz6kNyVcHU7ToviyowMPL9rhWy2L1T5IRV_zbzMsXUj70McfA"    position="30 3 -16" rotation="30 45 10" scale="2 2 2"> 
+   	<a-animation attribute="rotation" to="120 30 360" direction="alternate" dur="2000"
+      repeat="indefinite"></a-animation>
+   </a-box>
+
+
+	 <a-box  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4IDMtnQCGrxrnydF-8s74QjNhK1Vu5a7UCn_sSon-TWAhN5MbdQ"    position="5 8 50" rotation="30 45 10" scale="2 2 2"> 
+   	<a-animation attribute="rotation" to="120 30 360" direction="alternate" dur="2000"
+      repeat="indefinite"></a-animation>
+   </a-box>    
+
+
+    <a-box  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ15PZGaWs_xXiaZE_u3OFp4RIvs0d9o5lGJmTAT2Xf9l4yX0N"    position="6 25 -7" rotation="30 45 10" scale="2 2 2"> 
+   	<a-animation attribute="rotation" to="360 30 60" direction="alternate" dur="2000"
+      repeat="indefinite"></a-animation>
+   </a-box>    
+
+     <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+   
+ <!--  <a-sky color="#222"></a-sky> -->
+</a-scene>
+
+</body>
+</html>
